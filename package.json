@@ -18,7 +18,8 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "tsc",
     "lint": "eslint src/**/* && tsc --noEmit",
-    "test": "jest --ci --verbose --forceExit --detectOpenHandles --coverage"
+    "test": "jest --ci --verbose --forceExit --detectOpenHandles --coverage",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
